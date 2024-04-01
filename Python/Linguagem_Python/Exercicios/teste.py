@@ -1,6 +1,6 @@
-nota = int(input("Informe a  nota"))
-while nota < 0 or nota > 10:
-    print("nota invalida")
-    nota = int(input("Informe a  nota"))
+lista = [1, 2, 3, 4, 5]
 
-print("nota valida")
+lista.append(8)
+# lista.pop(0)
+# lista.remove(4)
+print(lista[2])
