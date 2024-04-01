@@ -1,6 +1,12 @@
-lista = [1, 2, 3, 4, 5]
+# respondendo uma pergunta simples de matemática
 
-lista.append(8)
-# lista.pop(0)
-# lista.remove(4)
-print(lista[2])
+resposta = "0"
+
+# enquanto a resposta não for 25, a repetição ocorrerá
+
+while resposta != "25":
+    resposta = input("Qual é o resultado da conta entre 5 * 5?:").strip()
+
+# caso o usuário acertar, uma mensagem será exibida
+
+print("PARABÉNS, VOCÊ ACERTOU!")
