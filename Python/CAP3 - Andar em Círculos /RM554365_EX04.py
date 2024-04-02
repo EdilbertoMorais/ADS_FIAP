@@ -20,8 +20,7 @@ Atenção! O programa deve consistir se o investimento fornecido é válido, ou 
 """
 import sys
 
-#  Verifica se o tipo de investimento é valido.
-
+#  Solicita a entrada de dado do usuário e verifica se o tipo de investimento é valido.
 while True:
     tipo_investimento = int(input("""Informe o tipo de investimento que deseja resgatar:
 [1] para CDB
@@ -38,13 +37,13 @@ Digite o número referente ao investimento: """))
     else:
         break
 
-#  Solicita ao usuário o valor do resgate
+#  Solicita ao usuário o valor total para resgate.
 valor_resgate = float(input("Digite o valor do resgate: "))
 
-#  Solicita que o usuário informe o total de dias do investimento.
+#  Solicita que o usuário informe o total de dias em que permaneceu o investimento.
 tempo_do_investimento = int(input("Informe o tempo aplicado no investimento: "))
 
-#  Calcula o IR com base no tempo do investimento
+#  Calcula a aliquota de IR com base no tempo em que o valor do resgate permaneceu aplicado.
 aliquota_ir = 0
 if tempo_do_investimento <= 180:
     aliquota_ir = 22.5
@@ -54,8 +53,9 @@ elif 361 <= tempo_do_investimento <= 720:
     aliquota_ir = 17.5
 else:
     aliquota_ir = 15
-print("\n")
-print("########### RESUMO DO RESGATE APLICAÇÃO ###########")
+
+#  Imprime as informações de tipo de investimento, valor do resgate, e IR a pagar.
+print("\n########### RESUMO DO RESGATE APLICAÇÃO ###########")
 
 match tipo_investimento:
     case 1:
@@ -67,7 +67,7 @@ match tipo_investimento:
 
 print(f"Valor total para resgate: R$ {valor_resgate:.2f}")
 
-print("                   TAXAS / TRIBUTOS                 ")
+print("\n                   TAXAS / TRIBUTOS                 ")
 if tipo_investimento == 1:
     valor_ir = valor_resgate * (aliquota_ir / 100)
     print(f"O valor do IR a ser pago é de R$ {valor_ir:.2f}")
