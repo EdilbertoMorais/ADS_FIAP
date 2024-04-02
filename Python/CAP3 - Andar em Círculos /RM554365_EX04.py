@@ -29,7 +29,7 @@ while True:
 [0] para SAIR da aplicação
 Digite o número referente ao investimento: """))
 
-    if 1 < tipo_investimento > 3:
+    if tipo_investimento not in [0, 1, 2, 3]:
         print("\nOpção Invalida!\n")
     elif tipo_investimento == 0:
         print("\nFim do programa!")
