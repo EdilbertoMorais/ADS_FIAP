@@ -20,16 +20,23 @@ quinta = 0
 sexta = 0
 
 #  Looping para iterar a votação:
-for i in range(qtda_votos):
-    voto = int(input(""" Vote em uma das opções abaixo: 
-    [1] Segunda-feira
-    [2] Terça-feira
-    [3] Quarta-feira
-    [4] Quinta-feira
-    [5] Sexta-feira
-    
-    Digite o número conforme as opções apresentadas acima: 
-"""))
+for iterador in range(qtda_votos):
+    voto_valido = False
+    while not voto_valido:
+        voto = int(input(""" Vote em uma das opções abaixo: 
+        [1] Segunda-feira
+        [2] Terça-feira
+        [3] Quarta-feira
+        [4] Quinta-feira
+        [5] Sexta-feira
+        
+        Digite o número conforme as opções apresentadas acima: """))
+
+        if 1 <= voto <= 5:
+            voto_valido = True
+        else:
+            print("Opção inválida!")
+
     if voto == 1:
         segunda += 1
     elif voto == 2:
@@ -40,8 +47,7 @@ for i in range(qtda_votos):
         quinta += 1
     elif voto == 5:
         sexta += 1
-    else:
-        print("Opção inválida!")
+
 
 #  Condição que verifica o dia mais votado e imprime o resultado:
 print("Resultado da votação: ")
@@ -64,4 +70,3 @@ else:
      Quinta-feira :{quinta}
      Sexta-feira :{sexta}
     """)
-
