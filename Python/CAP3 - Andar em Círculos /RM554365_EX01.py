@@ -62,6 +62,7 @@ elif quinta > segunda and quinta > terca and quinta > quarta and quinta > sexta:
 elif sexta > segunda and sexta > terca and sexta > quarta and sexta > quinta:
     print("Dia mais votado: Sexta-feira")
 else:
+    # Caso ocorra empate, será impresso todos os votos, para ser feita nova votação
     print(f""" Houve um empate na votação:
      total votos:
      Segunda-feira :{segunda}

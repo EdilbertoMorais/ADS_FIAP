@@ -18,7 +18,6 @@ de renda.
 
 Atenção! O programa deve consistir se o investimento fornecido é válido, ou seja, 1, 2 o 3.
 """
-import sys
 
 #  Solicita a entrada de dado do usuário e verifica se o tipo de investimento é valido.
 while True:
@@ -26,22 +25,16 @@ while True:
 [1] para CDB
 [2] para LCI
 [3] para LCA
-[0] para SAIR da aplicação
-Digite o número referente ao investimento: """))
+\nDigite o número referente ao investimento: """))
 
-    if tipo_investimento not in [0, 1, 2, 3]:
-        print("\nOpção Invalida!\n")
-    elif tipo_investimento == 0:
-        print("\nFim do programa!")
-        sys.exit()
-    else:
+    if tipo_investimento == 1 or tipo_investimento == 2 or tipo_investimento == 3:
         break
 
 #  Solicita ao usuário o valor total para resgate.
-valor_resgate = float(input("Digite o valor do resgate: "))
+valor_resgate = float(input("\nDigite o valor do resgate: "))
 
 #  Solicita que o usuário informe o total de dias em que permaneceu o investimento.
-tempo_do_investimento = int(input("Informe o tempo aplicado no investimento: "))
+tempo_do_investimento = int(input("\nInforme o tempo aplicado no investimento: "))
 
 #  Calcula a aliquota de IR com base no tempo em que o valor do resgate permaneceu aplicado.
 aliquota_ir = 0

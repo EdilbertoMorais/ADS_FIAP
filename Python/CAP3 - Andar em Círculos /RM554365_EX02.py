@@ -23,19 +23,20 @@ quantidade de parcelas                               % de acréscimo sobre o pre
 """
 
 # Solicitar o valor do carro ao usuário
-valor_carro = float(input("Digite o valor do carro: "))
+valor_total_carro = float(input("Digite o valor do carro: "))
 
 # Preço final para compra à vista com desconto de 20%
-preco_final_a_vista = valor_carro * 0.8
+valor_carro_a_vista = valor_total_carro * 0.8
 
 # Imprime o preço final à vista
-print(f"O preço final á vista com desconto de 20% é: R$ {preco_final_a_vista:.2f}")
+print(f"O preço final á vista com desconto de 20% é: R$ {valor_carro_a_vista:.2f}")
 
 # Imprime as condições de parcelamento com o acrescimo dos juros conforme tabela.
-for parcelas in range(6, 61, 6):
-    tx_juros = parcelas / 200
-    preco_final_parcelado = valor_carro * (tx_juros + 1)
-    valor_parcela = preco_final_parcelado / parcelas
+juros = 1.03
+for qtda_parcelas in range(6, 61, 6):
+    preco_final_parcelado = valor_total_carro * juros
+    valor_parcela = preco_final_parcelado / qtda_parcelas
+    juros += 0.03
     print(
-        f"O preço final parcelado em {parcelas}X é de R$ {preco_final_parcelado:.2f} com parcelas "
-        f"de R${valor_parcela:.2f}")
+        f"O preço final parcelado em {qtda_parcelas}X é de R$ {preco_final_parcelado:.2f} com "
+        f"parcelas de R${valor_parcela:.2f}")
