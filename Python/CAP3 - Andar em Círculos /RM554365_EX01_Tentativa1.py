@@ -7,20 +7,20 @@ participar da live. Verifique e exiba ao final, qual dia foi o escolhido pelos c
 
 Observação: Verifique o número de colaboradores que irão participar da votação para programar sua
 estrutura de repetição."
-"""
 
+"""
 #  Verificar quantos colaboradores irão participar da votação:
 qtda_votos = int(input("Informe a quantidade de colaboradores que irão participar da votação: "))
 
-#  Cria uma lista com os dias que serão votados
-dias_semana = ["Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira"]
+#  Instanciando as variáveis para computar os votos:
+segunda = 0
+terca = 0
+quarta = 0
+quinta = 0
+sexta = 0
 
-#  Cria a lista com 5 elementos que receberão os votos, cada elemento dessa lista representa
-#  o elemento da lista dias_semana na mesma ordem.
-votos = [0] * 5
-
-# Laço de repetição que solicita o voto do colaborador
-for i in range(qtda_votos):
+#  Looping para iterar a votação:
+for iterador in range(qtda_votos):
     voto_valido = False
     while not voto_valido:
         voto = int(input(""" Vote em uma das opções abaixo: 
@@ -31,36 +31,43 @@ for i in range(qtda_votos):
         [5] Sexta-feira
         
         Digite o número conforme as opções apresentadas acima: """))
-        # valida o voto do colaborador
+
         if 1 <= voto <= 5:
             voto_valido = True
         else:
             print("Opção inválida!")
-    #  Incrementa o indíce da lista votos conforme a opção de voto escolhido
+
     if voto == 1:
-        votos[0] += 1
+        segunda += 1
     elif voto == 2:
-        votos[1] += 1
+        terca += 1
     elif voto == 3:
-        votos[2] += 1
+        quarta += 1
     elif voto == 4:
-        votos[3] += 1
+        quinta += 1
     elif voto == 5:
-        votos[4] += 1
+        sexta += 1
 
-# Encontra o elemento com o maior número de votos
-maior_voto = max(votos)
 
-# Cria a lista dos mais votados
-mais_votados = [i for i, voto in enumerate(votos) if voto == maior_voto]
-
-#  Verifica se a lista mais_votados possui mais de 1 elemento, caso positivo, imprime a mensagem
-#  "Houve um empate e itera sobre a lista imprimindo os elementos mais votados"
-if len(mais_votados) > 1:
-    print("Houve um empate entre os dias:")
-    for indice in mais_votados:
-        print(f"- {dias_semana[indice]} com {maior_voto} votos")
-#  Caso a lista mais_votados não seja maior que 1, imprime o dia mais votado
+#  Condição que verifica o dia mais votado e imprime o resultado:
+print("Resultado da votação: ")
+if segunda > terca and segunda > quarta and segunda > quinta and segunda > sexta:
+    print("Dia mais votado: Segunda-feira")
+elif terca > segunda and terca > quarta and terca > quinta and terca > sexta:
+    print("Dia mais votado: Terça-feira")
+elif quarta > segunda and quarta > terca and quarta > quinta and quarta > sexta:
+    print("Dia mais votado: Quarta-feira")
+elif quinta > segunda and quinta > terca and quinta > quarta and quinta > sexta:
+    print("Dia mais votado: Quinta_feira")
+elif sexta > segunda and sexta > terca and sexta > quarta and sexta > quinta:
+    print("Dia mais votado: Sexta-feira")
 else:
-    indice_vencedor = mais_votados[0]  # Índice do único vencedor
-    print(f"O vencedor foi {dias_semana[indice_vencedor]} com {maior_voto} votos")
+    # Caso ocorra empate, será impresso todos os votos, para ser feita nova votação
+    print(f""" Houve um empate na votação:
+     total votos:
+     Segunda-feira :{segunda}
+     Terça-feira :{terca}
+     Quarta-feira :{quarta}
+     Quinta-feira :{quinta}
+     Sexta-feira :{sexta}
+    """)
