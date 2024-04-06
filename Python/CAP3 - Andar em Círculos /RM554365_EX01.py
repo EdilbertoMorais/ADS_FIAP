@@ -52,15 +52,20 @@ for i in range(qtda_votos):
 maior_voto = max(votos)
 
 # Cria a lista dos mais votados
-mais_votados = [i for i, voto in enumerate(votos) if voto == maior_voto]
+dias_mais_votados = []
+
+#  Add os elementos da lista votos a lista dias_mais_votados que possuem o mesmo valor do elemento
+for indice_do_dia, quantidade_de_votos in enumerate(votos):
+    if quantidade_de_votos == maior_voto:
+        dias_mais_votados.append(indice_do_dia)
 
 #  Verifica se a lista mais_votados possui mais de 1 elemento, caso positivo, imprime a mensagem
 #  "Houve um empate e itera sobre a lista imprimindo os elementos mais votados"
-if len(mais_votados) > 1:
+if len(dias_mais_votados) > 1:
     print("Houve um empate entre os dias:")
-    for indice in mais_votados:
+    for indice in dias_mais_votados:
         print(f"- {dias_semana[indice]} com {maior_voto} votos")
 #  Caso a lista mais_votados não seja maior que 1, imprime o dia mais votado
 else:
-    indice_vencedor = mais_votados[0]  # Índice do único vencedor
+    indice_vencedor = dias_mais_votados[0]  # Índice do único vencedor
     print(f"O vencedor foi {dias_semana[indice_vencedor]} com {maior_voto} votos")
