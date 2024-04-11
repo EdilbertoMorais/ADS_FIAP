@@ -15,7 +15,7 @@ Quantidade Parcelas                                     % juros sobre o valor in
 12                                                      25
 """
 
-#  Informar o valor total da divida.
+#  Informar o valor total da divida.1000
 divida_inicial = float(input("Digite o valor total da dívida: "))
 
 print(

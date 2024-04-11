@@ -49,7 +49,6 @@ else:
 
 #  Imprime as informações de tipo de investimento, valor do resgate, e IR a pagar.
 print("\n########### RESUMO DO RESGATE APLICAÇÃO ###########")
-
 match tipo_investimento:
     case 1:
         print("Tipo Investimento definido: CDB")
