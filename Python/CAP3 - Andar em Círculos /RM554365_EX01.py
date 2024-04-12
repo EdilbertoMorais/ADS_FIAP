@@ -9,9 +9,14 @@ Observação: Verifique o número de colaboradores que irão participar da vota�
 estrutura de repetição."
 """
 
-#  Verificar quantos colaboradores irão participar da votação:
-qtda_votos = int(input("Informe a quantidade de colaboradores que irão participar da votação: "))
-
+#  Solicita ao usuário que informe quantos colaboradores irão participar da votação:
+while True:
+    qtda_votos = int(input("Informe a quantidade de colaboradores que irão participar da Votação: "))
+    # Valida se o dado informado é maior que 0.
+    if qtda_votos > 0:
+        break
+    else:
+        print("\nO número de colaboradores deve ser maior que 0.")
 #  Cria uma lista com os dias que serão votados
 dias_semana = ["Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira"]
 
@@ -21,8 +26,7 @@ votos = [0] * 5
 
 # Laço de repetição que solicita o voto do colaborador
 for i in range(qtda_votos):
-    voto_valido = False
-    while not voto_valido:
+    while True:
         voto = int(input(""" Vote em uma das opções abaixo: 
         [1] Segunda-feira
         [2] Terça-feira
@@ -33,7 +37,8 @@ for i in range(qtda_votos):
         Digite o número conforme as opções apresentadas acima: """))
         # valida o voto do colaborador
         if 1 <= voto <= 5:
-            voto_valido = True
+            # voto_valido = True
+            break
         else:
             print("Opção inválida!")
     #  Incrementa o indíce da lista votos conforme a opção de voto escolhido

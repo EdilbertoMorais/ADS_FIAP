@@ -15,13 +15,18 @@ Quantidade Parcelas                                     % juros sobre o valor in
 12                                                      25
 """
 
-#  Informar o valor total da divida.1000
-divida_inicial = float(input("Digite o valor total da dívida: "))
-
+#  Solicita ao usuário que informe o valor total da divida. Exemplo proposto = 1000
+while True:
+    divida_inicial = float(input("Digite o valor total da dívida: "))
+    if divida_inicial > 0:
+        break
+    else:
+        print("Valor da divida deve ser maior que 0.")
+# Imprime o valor do pagamento com apenas 1 parcela.
 print(
     f"Total: R$ {divida_inicial:.2f} Juros: R$   0.00 Numero parcelas: 1 Valor Parcela: "
     f"R$ {divida_inicial}")
-
+# Itera a impressão dos valores com parcelas de 3X, 6X, 9X e 12X.
 taxa_juros = 1.10
 for parcelas in range(3, 13, 3):
     valor_total = divida_inicial * taxa_juros

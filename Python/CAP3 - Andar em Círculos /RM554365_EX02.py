@@ -22,8 +22,13 @@ quantidade de parcelas                               % de acréscimo sobre o pre
 
 """
 
-# Solicitar o valor do carro ao usuário
-valor_total_carro = float(input("Digite o valor do carro: "))
+# Solicita o valor do carro ao usuário.
+while True:
+    valor_total_carro = float(input("Digite o valor do carro: "))
+    if valor_total_carro > 0:
+        break
+    else:
+        print("Valor do veículo deve ser maior que 0.")
 
 # Preço final para compra à vista com desconto de 20%
 valor_carro_a_vista = valor_total_carro * 0.8
