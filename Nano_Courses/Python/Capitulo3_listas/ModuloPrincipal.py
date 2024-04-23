@@ -1,4 +1,4 @@
-from NanoCourses.Python.Capitulo3_Funcoes.IdentificadorDeFuncoes import *
+from Python.Capitulo3_Funcoes.IdentificadorDeFuncoes import *
 
 minhaLista = []
 

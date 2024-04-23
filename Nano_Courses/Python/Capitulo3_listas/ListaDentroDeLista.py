@@ -1,14 +1,14 @@
 inventario = []
-resposta = "S"
+resposta = ""
 
 # adicionar item no inventário
-while resposta == "S":
+while resposta == "":
     equipamento = [input("Equipamento: "),
                    float(input("Valor: ")),
                    int(input("Número Serial: ")),
                    input("Departamento: ")]
     inventario.append(equipamento)
-    resposta = input("Digite 'S' para continuar: ").upper()
+    resposta = input("Digite ENTER para continuar ou S para SAIR: ").upper()
 
 # exibir dados do inventário
 for elemento in inventario:
