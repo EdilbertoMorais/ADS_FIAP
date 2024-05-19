@@ -127,7 +127,8 @@ public class AgendaContatos {
         // Permite ao usuário editar o contato encontrado
         // Não permite que o nome seja editado por ser a chave de pesquisa
         System.out.println("********* EDITE O CONTATO *********");
-        System.out.print("Nome.........: " + matriz[linha][0] + " ");
+//        System.out.print("Nome.........: " + matriz[linha][0] + " ");
+        System.out.print(STR."Nome.........: \{matriz[linha][0]} ");
         System.out.print("Celular......: ");
         matriz[linha][1] = entrada.next();
         System.out.print("E-mail.......: ");
