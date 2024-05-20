@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização.">
-      <change afterPath="$PROJECT_DIR$/Python/Arquivos/endereco.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/exemplo_geopy_wazeeyes.py" afterDir="false" />
+    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +76,16 @@
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/edilberto/projetos/ADS_FIAP/Nano_Courses",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -219,7 +219,8 @@
       <workItem from="1713974092528" duration="21000" />
       <workItem from="1715215656068" duration="142000" />
       <workItem from="1715217892043" duration="49000" />
-      <workItem from="1716156013604" duration="6984000" />
+      <workItem from="1716156013604" duration="7175000" />
+      <workItem from="1716227450216" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização.">
       <option name="closed" value="true" />
@@ -237,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713887958671</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy">
+      <option name="closed" value="true" />
+      <created>1716163933491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716163933491</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +266,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização." />
+    <MESSAGE value="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Nano_Courses$ModuloPrincipal.coverage" NAME="ModuloPrincipal Coverage Results" MODIFIED="1713391436338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo3_listas" />
@@ -265,7 +275,7 @@
     <SUITE FILE_PATH="coverage/Nano_Courses$usuarios.coverage" NAME="usuarios Coverage Results" MODIFIED="1713453670151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
     <SUITE FILE_PATH="coverage/Nano_Courses$TuplaEnumerate.coverage" NAME="TuplaEnumerate Coverage Results" MODIFIED="1713459047373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
     <SUITE FILE_PATH="coverage/Nano_Courses$Boston.coverage" NAME="Boston Coverage Results" MODIFIED="1713827398895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
-    <SUITE FILE_PATH="coverage/Nano_Courses$exemplo_geopy_wazeeyes.coverage" NAME="exemplo_geopy_wazeeyes Coverage Results" MODIFIED="1716163743193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
+    <SUITE FILE_PATH="coverage/Nano_Courses$exemplo_geopy_wazeeyes.coverage" NAME="exemplo_geopy_wazeeyes Coverage Results" MODIFIED="1716163786590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$teste.coverage" NAME="teste Coverage Results" MODIFIED="1713382388684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Nano_Courses$whileInfinito.coverage" NAME="whileInfinito Coverage Results" MODIFIED="1713382937475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Introdução/Capitulo2_Repeticoes" />
     <SUITE FILE_PATH="coverage/Nano_Courses$IdentificadorDeFuncoes.coverage" NAME="IdentificadorDeFuncoes Coverage Results" MODIFIED="1713391303152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo3_Funcoes" />

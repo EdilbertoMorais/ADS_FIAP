@@ -14,7 +14,6 @@ print("ENDERECO FORMATADO", endereco)
 localizacao: object = geolocalizacao.geocode(endereco)
 print("LOCALIZACAO INFORMADA", localizacao)
 # Cria o dicionário de saída com as coordenadas, se a localização for encontrada
-# saida = {"coordenadas": (localizacao.latidude, localizacao.latidude)}
 saida = {"coordenadas": (localizacao.latitude, localizacao.longitude)} if localizacao else {"coordenadas": (None, None)}
 # Grava o resultado no arquivo
 gravar_arquivo(saida, "/home/edilberto/projetos/ADS_FIAP/Nano_Courses/Python/Arquivos/saida.json")
