@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização.">
+      <change afterPath="$PROJECT_DIR$/Python/Arquivos/endereco.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/exemplo_geopy_wazeeyes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,43 +51,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;HTTP Request.generated-requests | CriaPessoa.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.http-requests-log | #1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ArquivoHTML.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Boston.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GravaArquivo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.IdentificadorDeFuncoes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Inventario.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LeituraArquivo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ListaDentroDeLista.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ManagerUser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Manipular_JSON.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MetodoAppend.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ModuloPrincipal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tupla.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TuplaEnumerate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.operadores_associacao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
-    &quot;Python.usuarios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.whileInfinito.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/edilberto/projetos/ADS_FIAP/Nano_Courses&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP Request.generated-requests | CriaPessoa.executor": "Run",
+    "HTTP Request.http-requests-log | #1.executor": "Run",
+    "Python.ArquivoHTML.executor": "Run",
+    "Python.Boston.executor": "Run",
+    "Python.GravaArquivo.executor": "Run",
+    "Python.IdentificadorDeFuncoes.executor": "Run",
+    "Python.Inventario.executor": "Run",
+    "Python.LeituraArquivo.executor": "Run",
+    "Python.ListaDentroDeLista.executor": "Run",
+    "Python.ManagerUser.executor": "Run",
+    "Python.Manipular_JSON.executor": "Run",
+    "Python.MetodoAppend.executor": "Run",
+    "Python.ModuloPrincipal.executor": "Run",
+    "Python.Tupla.executor": "Run",
+    "Python.TuplaEnumerate.executor": "Run",
+    "Python.exemplo_geopy_wazeeyes.executor": "Run",
+    "Python.operadores_associacao.executor": "Run",
+    "Python.teste.executor": "Run",
+    "Python.usuarios.executor": "Run",
+    "Python.whileInfinito.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/edilberto/projetos/ADS_FIAP/Nano_Courses",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Python/Arquivos" />
@@ -98,7 +101,7 @@
       <recent name="$PROJECT_DIR$/Python/Introdução" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Manipular_JSON">
+  <component name="RunManager" selected="Python.exemplo_geopy_wazeeyes">
     <configuration name="generated-requests | CriaPessoa" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="CriaPessoa" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -120,29 +123,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos/Boston.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Inventario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Nano_Courses" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos/Inventario.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,13 +154,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exemplo_geopy_wazeeyes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Nano_Courses" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/exemplo_geopy_wazeeyes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exemplo_geopy_wazeeyes" />
         <item itemvalue="Python.Manipular_JSON" />
         <item itemvalue="HTTP Request.http-requests-log | #1" />
         <item itemvalue="HTTP Request.generated-requests | CriaPessoa" />
         <item itemvalue="Python.Boston" />
-        <item itemvalue="Python.Inventario" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +219,7 @@
       <workItem from="1713974092528" duration="21000" />
       <workItem from="1715215656068" duration="142000" />
       <workItem from="1715217892043" duration="49000" />
+      <workItem from="1716156013604" duration="6984000" />
     </task>
     <task id="LOCAL-00001" summary="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização.">
       <option name="closed" value="true" />
@@ -261,6 +265,7 @@
     <SUITE FILE_PATH="coverage/Nano_Courses$usuarios.coverage" NAME="usuarios Coverage Results" MODIFIED="1713453670151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
     <SUITE FILE_PATH="coverage/Nano_Courses$TuplaEnumerate.coverage" NAME="TuplaEnumerate Coverage Results" MODIFIED="1713459047373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
     <SUITE FILE_PATH="coverage/Nano_Courses$Boston.coverage" NAME="Boston Coverage Results" MODIFIED="1713827398895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
+    <SUITE FILE_PATH="coverage/Nano_Courses$exemplo_geopy_wazeeyes.coverage" NAME="exemplo_geopy_wazeeyes Coverage Results" MODIFIED="1716163743193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$teste.coverage" NAME="teste Coverage Results" MODIFIED="1713382388684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Nano_Courses$whileInfinito.coverage" NAME="whileInfinito Coverage Results" MODIFIED="1713382937475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Introdução/Capitulo2_Repeticoes" />
     <SUITE FILE_PATH="coverage/Nano_Courses$IdentificadorDeFuncoes.coverage" NAME="IdentificadorDeFuncoes Coverage Results" MODIFIED="1713391303152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo3_Funcoes" />
