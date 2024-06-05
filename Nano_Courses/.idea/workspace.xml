@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="add as bibliotecas externas platform e getpass e usando-as nos exemplos">
-      <change afterPath="$PROJECT_DIR$/Python/Capitulo7_ProtocoloComunicacao/usando_socket.py" afterDir="false" />
+    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="usando_socket.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,52 +49,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "HTTP Request.generated-requests | CriaPessoa.executor": "Run",
-    "HTTP Request.http-requests-log | #1.executor": "Run",
-    "Python.ArquivoHTML.executor": "Run",
-    "Python.Boston.executor": "Run",
-    "Python.GravaArquivo.executor": "Run",
-    "Python.IdentificadorDeFuncoes.executor": "Run",
-    "Python.Inventario.executor": "Run",
-    "Python.LeituraArquivo.executor": "Run",
-    "Python.ListaDentroDeLista.executor": "Run",
-    "Python.ManagerUser.executor": "Run",
-    "Python.Manipular_JSON.executor": "Run",
-    "Python.MetodoAppend.executor": "Run",
-    "Python.ModuloPrincipal.executor": "Run",
-    "Python.Tupla.executor": "Run",
-    "Python.TuplaEnumerate.executor": "Run",
-    "Python.exemplo_geopy_wazeeyes.executor": "Run",
-    "Python.geolocalizacao_plus.executor": "Run",
-    "Python.geolocalizacao_reversa.executor": "Run",
-    "Python.operadores_associacao.executor": "Run",
-    "Python.pygeocoder.executor": "Run",
-    "Python.sistema_operacional.executor": "Run",
-    "Python.teste.executor": "Run",
-    "Python.usuario_data.executor": "Run",
-    "Python.usuarios.executor": "Run",
-    "Python.whileInfinito.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/edilberto/projetos/ADS_FIAP/Nano_Courses",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;HTTP Request.generated-requests | CriaPessoa.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.http-requests-log | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ArquivoHTML.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Boston.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GravaArquivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IdentificadorDeFuncoes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inventario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LeituraArquivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ListaDentroDeLista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ManagerUser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Manipular_JSON.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MetodoAppend.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ModuloPrincipal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tupla.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TuplaEnumerate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exemplo_geopy_wazeeyes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geolocalizacao_plus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.geolocalizacao_reversa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operadores_associacao.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pygeocoder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sistema_operacional.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.usuario_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.usuarios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.whileInfinito.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/edilberto/projetos/ADS_FIAP/Nano_Courses&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Python/Arquivos" />
@@ -281,6 +280,7 @@
       <workItem from="1716412394101" duration="1052000" />
       <workItem from="1717359810433" duration="1154000" />
       <workItem from="1717456976885" duration="889000" />
+      <workItem from="1717623958197" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização.">
       <option name="closed" value="true" />
@@ -314,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716233987968</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="usando_socket.py">
+      <option name="closed" value="true" />
+      <created>1717624016421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717624016421</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +344,8 @@
     <MESSAGE value="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização." />
     <MESSAGE value="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy" />
     <MESSAGE value="add as bibliotecas externas platform e getpass e usando-as nos exemplos" />
-    <option name="LAST_COMMIT_MESSAGE" value="add as bibliotecas externas platform e getpass e usando-as nos exemplos" />
+    <MESSAGE value="usando_socket.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="usando_socket.py" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
