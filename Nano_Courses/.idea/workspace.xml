@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="usando_socket.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -281,6 +279,7 @@
       <workItem from="1717359810433" duration="1154000" />
       <workItem from="1717456976885" duration="889000" />
       <workItem from="1717623958197" duration="76000" />
+      <workItem from="1717624253482" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização.">
       <option name="closed" value="true" />
@@ -322,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717624016421</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <option name="closed" value="true" />
+      <created>1717624293525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717624293525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +352,8 @@
     <MESSAGE value="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy" />
     <MESSAGE value="add as bibliotecas externas platform e getpass e usando-as nos exemplos" />
     <MESSAGE value="usando_socket.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="usando_socket.py" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
