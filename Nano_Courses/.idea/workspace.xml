@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy">
+    <list default="true" id="d72e326d-e4c2-4a50-8169-02ad9e78a178" name="Changes" comment="add as bibliotecas externas platform e getpass e usando-as nos exemplos">
+      <change afterPath="$PROJECT_DIR$/Python/Capitulo7_ProtocoloComunicacao/usando_socket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,12 +69,18 @@
     "Python.Tupla.executor": "Run",
     "Python.TuplaEnumerate.executor": "Run",
     "Python.exemplo_geopy_wazeeyes.executor": "Run",
+    "Python.geolocalizacao_plus.executor": "Run",
+    "Python.geolocalizacao_reversa.executor": "Run",
     "Python.operadores_associacao.executor": "Run",
+    "Python.pygeocoder.executor": "Run",
+    "Python.sistema_operacional.executor": "Run",
     "Python.teste.executor": "Run",
+    "Python.usuario_data.executor": "Run",
     "Python.usuarios.executor": "Run",
     "Python.whileInfinito.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/edilberto/projetos/ADS_FIAP/Nano_Courses",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -85,7 +92,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,60 +108,8 @@
       <recent name="$PROJECT_DIR$/Python/Introdução" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.exemplo_geopy_wazeeyes">
-    <configuration name="generated-requests | CriaPessoa" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="CriaPessoa" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="http-requests-log | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="Boston" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Nano_Courses" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos/Boston.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Manipular_JSON" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Nano_Courses" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos/Manipular_JSON.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="exemplo_geopy_wazeeyes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pygeocoder">
+    <configuration name="geolocalizacao_plus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Nano_Courses" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,7 +123,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/exemplo_geopy_wazeeyes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/geolocalizacao_plus.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,21 +132,120 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="geolocalizacao_reversa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Nano_Courses" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/geolocalizacao_reversa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pygeocoder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Nano_Courses" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/pygeocoder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sistema_operacional" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Nano_Courses" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/sistema_operacional.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="usuario_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Nano_Courses" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas/usuario_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pygeocoder" />
+      <item itemvalue="Python.geolocalizacao_plus" />
+      <item itemvalue="Python.geolocalizacao_reversa" />
+      <item itemvalue="Python.sistema_operacional" />
+      <item itemvalue="Python.usuario_data" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.exemplo_geopy_wazeeyes" />
-        <item itemvalue="Python.Manipular_JSON" />
-        <item itemvalue="HTTP Request.http-requests-log | #1" />
-        <item itemvalue="HTTP Request.generated-requests | CriaPessoa" />
-        <item itemvalue="Python.Boston" />
+        <item itemvalue="Python.usuario_data" />
+        <item itemvalue="Python.sistema_operacional" />
+        <item itemvalue="Python.pygeocoder" />
+        <item itemvalue="Python.geolocalizacao_reversa" />
+        <item itemvalue="Python.geolocalizacao_plus" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -221,6 +275,12 @@
       <workItem from="1715217892043" duration="49000" />
       <workItem from="1716156013604" duration="7175000" />
       <workItem from="1716227450216" duration="409000" />
+      <workItem from="1716227896450" duration="10686000" />
+      <workItem from="1716244935537" duration="537000" />
+      <workItem from="1716245577290" duration="1220000" />
+      <workItem from="1716412394101" duration="1052000" />
+      <workItem from="1717359810433" duration="1154000" />
+      <workItem from="1717456976885" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização.">
       <option name="closed" value="true" />
@@ -246,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716163933491</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add as bibliotecas externas platform e getpass e usando-as nos exemplos">
+      <option name="closed" value="true" />
+      <created>1716233987968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716233987968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,25 +335,35 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add capítulos que tratam sobre Funções, Dicionários, Manipulação de arquivos, modularização." />
     <MESSAGE value="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add o capitulo que trata sobre bibliotecas externas. Criado o exemplo de como usar o geopy" />
+    <MESSAGE value="add as bibliotecas externas platform e getpass e usando-as nos exemplos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add as bibliotecas externas platform e getpass e usando-as nos exemplos" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Nano_Courses$ModuloPrincipal.coverage" NAME="ModuloPrincipal Coverage Results" MODIFIED="1713391436338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo3_listas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$ListaDentroDeLista.coverage" NAME="ListaDentroDeLista Coverage Results" MODIFIED="1713391337820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo3_listas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$usuarios.coverage" NAME="usuarios Coverage Results" MODIFIED="1713453670151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
     <SUITE FILE_PATH="coverage/Nano_Courses$TuplaEnumerate.coverage" NAME="TuplaEnumerate Coverage Results" MODIFIED="1713459047373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
+    <SUITE FILE_PATH="coverage/Nano_Courses$pygeocoder.coverage" NAME="pygeocoder Coverage Results" MODIFIED="1716233534693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$Boston.coverage" NAME="Boston Coverage Results" MODIFIED="1713827398895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
     <SUITE FILE_PATH="coverage/Nano_Courses$exemplo_geopy_wazeeyes.coverage" NAME="exemplo_geopy_wazeeyes Coverage Results" MODIFIED="1716163786590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
+    <SUITE FILE_PATH="coverage/Nano_Courses$geolocalizacao_plus.coverage" NAME="geolocalizacao_plus Coverage Results" MODIFIED="1716229100383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$teste.coverage" NAME="teste Coverage Results" MODIFIED="1713382388684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
     <SUITE FILE_PATH="coverage/Nano_Courses$whileInfinito.coverage" NAME="whileInfinito Coverage Results" MODIFIED="1713382937475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Introdução/Capitulo2_Repeticoes" />
     <SUITE FILE_PATH="coverage/Nano_Courses$IdentificadorDeFuncoes.coverage" NAME="IdentificadorDeFuncoes Coverage Results" MODIFIED="1713391303152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo3_Funcoes" />
     <SUITE FILE_PATH="coverage/Nano_Courses$Inventario.coverage" NAME="Inventario Coverage Results" MODIFIED="1713822658938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
     <SUITE FILE_PATH="coverage/Nano_Courses$ManagerUser.coverage" NAME="ManagerUser Coverage Results" MODIFIED="1713457175289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
     <SUITE FILE_PATH="coverage/Nano_Courses$LeituraArquivo.coverage" NAME="LeituraArquivo Coverage Results" MODIFIED="1713797993797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
+    <SUITE FILE_PATH="coverage/Nano_Courses$geolocalizacao_reversa.coverage" NAME="geolocalizacao_reversa Coverage Results" MODIFIED="1716229262271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$Tupla.coverage" NAME="Tupla Coverage Results" MODIFIED="1713457846294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo4_Dicionarios" />
     <SUITE FILE_PATH="coverage/Nano_Courses$MetodoAppend.coverage" NAME="MetodoAppend Coverage Results" MODIFIED="1713384067081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo3_listas" />
+    <SUITE FILE_PATH="coverage/Nano_Courses$sistema_operacional.coverage" NAME="sistema_operacional Coverage Results" MODIFIED="1716229852235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$operadores_associacao.coverage" NAME="operadores_associacao Coverage Results" MODIFIED="1713382524236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo1_PrimeirosProjetos" />
     <SUITE FILE_PATH="coverage/Nano_Courses$GravaArquivo.coverage" NAME="GravaArquivo Coverage Results" MODIFIED="1713473940554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
+    <SUITE FILE_PATH="coverage/Nano_Courses$usuario_data.coverage" NAME="usuario_data Coverage Results" MODIFIED="1716231625990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo6_Bibliotecas_Externas" />
     <SUITE FILE_PATH="coverage/Nano_Courses$Manipular_JSON.coverage" NAME="Manipular_JSON Coverage Results" MODIFIED="1713839438966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
     <SUITE FILE_PATH="coverage/Nano_Courses$ArquivoHTML.coverage" NAME="ArquivoHTML Coverage Results" MODIFIED="1713474429437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Capitulo5_ManipulacaoArquivos" />
   </component>
