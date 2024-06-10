@@ -1,0 +1,19 @@
+body{
+    color: indigo;
+    font-size: 15px;
+    align-content: center;
+}
+
+h2 {
+    font-size: 25px;
+    color: darkorange;
+}
+
+p{
+    color: darkviolet;
+}
+
+h1{
+    /*Não funciona no h1 devido a formatação do CSS interno que se sobrepõe ao CSS externo*/
+    color: blue;
+}

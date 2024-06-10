@@ -4,9 +4,22 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Meu site Web</title>
+    
+<!--    CSS interno-->
+    <style>
+        p{
+            color: blueviolet;
+            font-size: 25px;
+        }
+    </style>
+    
+<!--    Linkar a CSS com a HTML - Mais conhecido como CSS Externo-->
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/styles.css">
 </head>
 <body>
-<h1 id="topo">Explorando as Ferramentas do HTML</h1>
+
+<!--CSS Inline - atribute style - o que não é uma boa prática-->
+<h1 id = "topo" style="color: red">Explorando as Ferramentas do HTML</h1>
 
 <h2>Tipos de títulos</h2>
 <h3>Montando o Setup Gamer Perfeito: Desempenho e Estética em Harmonia</h3>
@@ -23,11 +36,11 @@
     um ambiente único e confortável para longas sessões de jogo</p>
 
 <h2>Usando o alt para descrever a imagem não carregada</h2>
-<img src = "images/pexels-sharad-3937174(####).jpg" alt = "setup pc mais moderna" title = "setup pc mais moderno">
+<img src = "assets/images/pexels-sharad-3937174.jpg" alt = "setup pc mais moderna" title = "setup pc mais moderno">
 
 <h2> Carregando imagens add ao projeto</h2>
-<img src = "images/pexels-xexusdesigner-777001.jpg" alt = "setup gamer com fundo azul" title = "setup gamer com fundo azul">
-<img src = "images/pexels-designecologist-1779487.jpg" alt = "setup pc mais moderno com fundo rosa"
+<img src = "assets/images/pexels-xexusdesigner-777001.jpg" alt = "setup gamer com fundo azul" title = "setup gamer com fundo azul">
+<img src = "assets/images/pexels-designecologist-1779487.jpg" alt = "setup pc mais moderno com fundo rosa"
      title = "setup pc mais moderno com fundo rosa">
 
 <h2>Listas em HTML - Ordenadas</h2>
@@ -86,20 +99,21 @@
 </ul>
 
 <h2>Links Externos</h2>
-    <a href="https://on.fiap.com.br/">FIAP</a><br>
-    <a href="https://on.fiap.com.br/" target="_blank">FIAP em outra Aba com Target</a>
+<a href = "https://on.fiap.com.br/">FIAP</a><br>
+<a href = "https://on.fiap.com.br/" target = "_blank">FIAP em outra Aba com Target</a>
 
 <h2>Links Internos</h2>
-    <a href="./pages/produtos.html">Produtos pag interna</a><br>
-    <a href="./pages/produtos.html" target="_blank">Produtos em outra Aba com Target</a>
+<a href = "assets/pages/produtos.html">Produtos pag interna</a><br>
+<a href = "assets/pages/produtos.html" target = "_blank">Produtos em outra Aba com Target</a>
 
 <h2>Links para numeros de telefones</h2>
-<a href="tel:1133858010">Telefone FIAP</a><br>
+<a href = "tel:1133858010">Telefone FIAP</a><br>
 
 <h2>Links para downloads de arquivos</h2>
-<a href="./downloads/Edilberto%20Cunha%20-%20Analista%20Desenvolvedor%20Sistemas.pdf" download>Baixar Curriculo</a><br>
+<a href = "assets/downloads/Edilberto%20Cunha%20-%20Analista%20Desenvolvedor%20Sistemas.pdf" download>Baixar
+    Curriculo</a><br>
 
 <h2>Links para áreas da propria página</h2>
-<a href="#topo">Voltar ao topo</a><br>
+<a href = "#topo">Voltar ao topo</a><br>
 </body>
 </html>

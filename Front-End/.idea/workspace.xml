@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c56c62c5-15d1-4110-a870-1bee9f30b5c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/downloads/Edilberto Cunha - Analista Desenvolvedor Sistemas.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pexels-designecologist-1779487.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pexels-sharad-3937174.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pexels-xexusdesigner-777001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pages/produtos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Front-End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Front-End.iml" afterDir="false" />
+    <list default="true" id="c56c62c5-15d1-4110-a870-1bee9f30b5c0" name="Changes" comment="Iniciando os estudos em frontend">
+      <change afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/produtos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/produtos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -62,6 +57,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/edilberto/projetos/ADS_FIAP/Front-End/assets/downloads",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -80,9 +76,12 @@
       <recent name="$PROJECT_DIR$/assets/downloads" />
       <recent name="$PROJECT_DIR$/assets/images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Front-End/Front-End/assets/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Front-End/Front-End/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -107,12 +106,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717876502443</updated>
-      <workItem from="1717876504767" duration="8254000" />
+      <workItem from="1717876504767" duration="9026000" />
+      <workItem from="1717967294816" duration="152000" />
+      <workItem from="1717967725529" duration="2402000" />
     </task>
+    <task id="LOCAL-00001" summary="Iniciando os estudos em frontend">
+      <option name="closed" value="true" />
+      <created>1717885600050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717885600050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Iniciando os estudos em frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciando os estudos em frontend" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
