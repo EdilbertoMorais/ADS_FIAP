@@ -1,19 +1,56 @@
-body{
-    color: indigo;
-    font-size: 15px;
-    align-content: center;
+/*!*body{*!*/
+/*!*    color: indigo;*!*/
+/*!*    font-size: 15px;*!*/
+/*!*    align-content: center;*!*/
+/*!*}*!*/
+
+/*h1 {*/
+/*    font-size: 25px;*/
+/*    color: green;*/
+/*    text-align: center;*/
+/*    text-decoration: underline;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*p{*/
+/*    color: darkred;*/
+/*    font-weight: 100;*/
+/*    font-style: oblique;*/
+/*    text-align: left;*/
+/*}*/
+
+/*body {*/
+/*    !*Não funciona no h1 devido a formatação do CSS interno que se sobrepõe ao CSS externo*!*/
+/*    color: darkmagenta;*/
+/*    .poppins-thin {*/
+/*        font-family: "Poppins", "Arial Black", sans-serif;*/
+/*        font-weight: 300;*/
+/*        font-style: revert;*/
+/*        font-size: 100px;*/
+/*        word-spacing: 15px;*/
+/*        letter-spacing: 10px;*/
+/*        line-height: 60px;*/
+/*    }*/
+/*}*/
+
+body {
+    font-family: "Poppins", sans-serif;
 }
 
-h2 {
-    font-size: 25px;
-    color: darkorange;
+ol{
+    list-style: upper-roman;
 }
 
-p{
-    color: darkviolet;
+ul {
+    list-style-position: inside;
+    list-style-image: url(../images/free.png);
+    image-rendering: pixelated;
+    /*filter: blur(1px);*/
+    /*filter: brightness(50%);*/
+    /*filter: opacity(10%);*/
 }
 
-h1{
-    /*Não funciona no h1 devido a formatação do CSS interno que se sobrepõe ao CSS externo*/
-    color: blue;
+img {
+    width: 100%;
+    height: auto;
 }
