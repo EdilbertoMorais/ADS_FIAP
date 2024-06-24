@@ -1,0 +1,50 @@
+/*body {*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    background-color: #4d2bbd;*/
+/*    margin: 10px;*/
+/*    padding: 10px;*/
+/*    font-size: 16px;*/
+/*}*/
+
+.plano-de-fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../Exercicios/assets/images/planoDeFundo.png') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    max-width: 700px;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    color: #c0a2e1;
+}
+
+.formulario-login {
+    display: flex;
+    width: 90%;
+    height: 700px;
+    background: #4d2bbd;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 0 50px rgb(179, 139, 222);
+}
+
+.emblema {
+    max-width: 350px;
+    margin: auto;
+}
+
+.titulo-emblema{
+    font-family: "Emblema One", system-ui;
+    color: #F4C542;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 5px auto 5px auto;
+    text-align: center;
+    align-items: center;
+}

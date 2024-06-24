@@ -1,0 +1,83 @@
+.planodefundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/planoDeFundo.png') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -10;
+}
+
+.formulario-login {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    max-width: 700px;
+    flex-direction: column;
+    background: #4d2bbd;
+    border-radius: 40px;
+    box-shadow: 0 0 50px rgb(179, 139, 222);
+}
+
+.titulo-emblema {
+    /*font-family: "Emblema One", system-ui;*/
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #F4C542;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.chamada-email, .chamada-senha {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5px;
+    flex-direction: column;
+    color: #AEA9FB;
+}
+
+input {
+    border: 1px solid #350567;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #AEA9FB;
+    background-color: #7a02fa;
+}
+
+.continue-conectado {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    gap: 10px;
+    color: #AEA9FB;
+}
+
+.check-manter-conectado {
+    max-width: 50px;
+    margin: auto;
+}
+
+.botoes {
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.entrar-google img {
+    height: 35px;
+}
+
+.entrar-google {
+    width: 60%;
+    border: 1px solid #350567;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #AEA9FB;
+    background-color: #7a02fa;
+}
+
+.material-symbols-outlined {
+    color: #AEA9FB;
+}
