@@ -81,3 +81,11 @@ input {
 .material-symbols-outlined {
     color: #AEA9FB;
 }
+
+input:hover{
+    background-color: #F4C542;
+}
+
+.entrar-google:hover{
+    background-color: #F4C542;
+}
