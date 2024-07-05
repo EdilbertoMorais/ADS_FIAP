@@ -82,10 +82,20 @@ input {
     color: #AEA9FB;
 }
 
+.continue-conectado:hover{
+    color: #F4C542;
+}
+
+.check-manter-conectado:hover{
+    color: #F4C542;
+}
+
 input:hover{
     background-color: #F4C542;
+    color: #350567;
 }
 
 .entrar-google:hover{
     background-color: #F4C542;
+    color: #350567;
 }
