@@ -19,77 +19,8 @@
       <change afterPath="$PROJECT_DIR$/Fase 5 Java/src/estruturas_de_controle/PremiacaoClientes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fase 5 Java/src/estruturas_de_controle/SistemaPedidoCafe.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Fase 5 Java/src/estruturas_de_controle/ValidacaoIdade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/Nivelamento/Fase_5/Exemplos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/Teste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_composto/DesvioComposto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_composto/MaiorIdade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_condicional_simples/DesvioSimples.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_condicional_simples/ExibeNumeroPositivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_encadeado/Calculadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_encadeado/DiaDaSemana.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_encadeado/ImpostoDeRenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_encadeado/MaiorDeTres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_encadeado/PositivoNegativoNulo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_encadeado/Rodizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/desvio_encadeado/Teste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/entrada_dados/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/funcoes_procedimentos/FuncaoComParametro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/funcoes_procedimentos/FuncaoMaiorNumero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/funcoes_procedimentos/FuncaoSemParametro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/funcoes_procedimentos/MediaSemestral.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/funcoes_procedimentos/Procedimentos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/Eleicao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/Fatorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/IntervalorDoisNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/LacoRepeticaoDoWhile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/LacoRepeticaoWhile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/MaiorEntreCincoNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/MenorEntreCincoNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/SomaDosNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/SomaNumerosMaiorQueDez.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/SomaVariosNumeros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/lacoserepeticao/Tabuada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/projeto_agenda_contatos/AgendaContatos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/projeto_agenda_contatos/teste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/vetores_matrizes/Matriz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/vetores_matrizes/MatrizExercicio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Nivelamento/introducao/vetores_matrizes/Vetor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/Teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_composto/DesvioComposto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_composto/MaiorIdade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_condicional_simples/DesvioSimples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_condicional_simples/ExibeNumeroPositivo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_encadeado/Calculadora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_encadeado/DiaDaSemana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_encadeado/ImpostoDeRenda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_encadeado/MaiorDeTres.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_encadeado/PositivoNegativoNulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_encadeado/Rodizio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/desvio_encadeado/Teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/entrada_dados/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/funcoes_procedimentos/FuncaoComParametro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/funcoes_procedimentos/FuncaoSemParametro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/funcoes_procedimentos/MediaSemestral.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/funcoes_procedimentos/Procedimentos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/Eleicao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/Fatorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/IntervalorDoisNumeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/LacoRepeticaoDoWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/LacoRepeticaoWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/MaiorEntreCincoNumeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/MenorEntreCincoNumeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/SomaDosNumeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/SomaNumerosMaiorQueDez.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/SomaVariosNumeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/lacoserepeticao/Tabuada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/projeto_agenda_contatos/AgendaContatos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/projeto_agenda_contatos/teste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/vetores_matrizes/Matriz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/vetores_matrizes/MatrizExercicio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/ADS_FIAP/com/fiap/introducao/vetores_matrizes/Vetor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fase 5 Java/src" beforeDir="false" afterPath="$PROJECT_DIR$/Fase 5 Java/src" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +46,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -188,7 +120,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -299,6 +231,8 @@
       <workItem from="1723488536480" duration="46000" />
       <workItem from="1723488799814" duration="17000" />
       <workItem from="1723488825354" duration="375000" />
+      <workItem from="1723491009568" duration="26000" />
+      <workItem from="1723491049555" duration="116000" />
     </task>
     <servers />
   </component>
