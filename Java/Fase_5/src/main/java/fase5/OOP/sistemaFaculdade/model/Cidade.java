@@ -14,16 +14,18 @@ public class Cidade {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public Cidade setNome(String nome) {
         this.nome = nome;
+        return this;
     }
 
     public String getEstado() {
         return estado;
     }
 
-    public void setEstado(String estado) {
+    public Cidade setEstado(String estado) {
         this.estado = estado;
+        return this;
     }
 
 }

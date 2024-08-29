@@ -2,10 +2,10 @@ package fase5.OOP.personagemMagico.model;
 
 public class Item {
 
-    public String nome;
-    public String descricao;
-    public Boolean ehRaro;
-    public int nivelPoder;
+    private String nome;
+    private String descricao;
+    private Boolean ehRaro;
+    private int nivelPoder;
 
     public Item(){}
 
@@ -16,4 +16,35 @@ public class Item {
         this.nivelPoder = nivelPoder;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public Boolean getEhRaro() {
+        return ehRaro;
+    }
+
+    public void setEhRaro(Boolean ehRaro) {
+        this.ehRaro = ehRaro;
+    }
+
+    public int getNivelPoder() {
+        return nivelPoder;
+    }
+
+    public void setNivelPoder(int nivelPoder) {
+        this.nivelPoder = nivelPoder;
+    }
 }

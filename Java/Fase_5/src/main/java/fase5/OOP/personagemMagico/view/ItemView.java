@@ -34,22 +34,25 @@ public class ItemView {
                     System.out.println("Informe o nivel de poder do item: ");
                     int nivelPoder = sc.nextInt();
 
-                    itemMagico.nome = nome;
-                    itemMagico.descricao = descricao;
+                    itemMagico.setNome(nome);
+                    itemMagico.setDescricao(descricao);
                     if (itemRaro == 1) {
-                        itemMagico.ehRaro = true;
+                        itemMagico.setEhRaro(true);
                     } else if (itemRaro == 2) {
-                        itemMagico.ehRaro = false;
+                        itemMagico.setEhRaro(false);
                     }
-                    itemMagico.nivelPoder = nivelPoder;
+                    itemMagico.setNivelPoder(nivelPoder);
                     break;
                 case 2:
                     System.out.printf("""
-                            Nome: %s
-                            Descrição: %s
-                            É raro?: %b
-                            Poder: %d
-                            %n""", itemMagico.nome, itemMagico.descricao, itemMagico.ehRaro, itemMagico.nivelPoder);
+                                    Nome: %s
+                                    Descrição: %s
+                                    É raro?: %b
+                                    Poder: %d
+                                    %n""", itemMagico.getNome(),
+                            itemMagico.getDescricao(),
+                            itemMagico.getEhRaro(),
+                            itemMagico.getNivelPoder());
                     break;
                 case 0:
                     System.out.println("Saindo do Programa");

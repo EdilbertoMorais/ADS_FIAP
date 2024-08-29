@@ -15,23 +15,26 @@ public class HabilidadeEspecial {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public HabilidadeEspecial setNome(String nome) {
         this.nome = nome;
+        return this;
     }
 
     public int getCustoEnergia() {
         return custoEnergia;
     }
 
-    public void setCustoEnergia(int custoEnergia) {
+    public HabilidadeEspecial setCustoEnergia(int custoEnergia) {
         this.custoEnergia = custoEnergia;
+        return this;
     }
 
     public boolean isHabilitada() {
         return habilitada;
     }
 
-    public void setHabilitada(boolean habilitada) {
+    public HabilidadeEspecial setHabilitada(boolean habilitada) {
         this.habilitada = habilitada;
+        return this;
     }
 }

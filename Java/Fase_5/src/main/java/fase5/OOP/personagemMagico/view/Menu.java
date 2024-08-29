@@ -31,9 +31,9 @@ public class Menu {
                     int nivelEnergia = sc.nextInt();
                     System.out.println("Digite o poder do personagem: ");
                     String poderMagico = sc.next() + sc.nextLine();
-                    personagem.setNome(nome);
-                    personagem.setNivelEnergia(nivelEnergia);
-                    personagem.setPoderMagico(poderMagico);
+                    personagem.setNome(nome)
+                            .setNivelEnergia(nivelEnergia)
+                            .setPoderMagico(poderMagico);
 
                     System.out.println("Digite o nome da habilidade especial: ");
                     String nomeHabilidade = sc.next() + sc.nextLine();

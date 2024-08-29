@@ -41,7 +41,7 @@ public class ItemView2 {
                                 Descrição: %s
                                 É raro?: %b
                                 Poder: %d
-                                %n""", item.nome, item.descricao, item.ehRaro, item.nivelPoder);
+                                %n""", item.getNome(), item.getDescricao(), item.getEhRaro(), item.getNivelPoder());
                     } else {
                         System.out.println("Nenhum item cadastrado.");
                     }

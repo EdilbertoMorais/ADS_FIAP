@@ -18,31 +18,35 @@ public class Endereco {
         return logradouro;
     }
 
-    public void setLogradouro(String logradouro) {
+    public Endereco setLogradouro(String logradouro) {
         this.logradouro = logradouro;
+        return this;
     }
 
     public String getNumero() {
         return numero;
     }
 
-    public void setNumero(String numero) {
+    public Endereco setNumero(String numero) {
         this.numero = numero;
+        return this;
     }
 
     public Cidade getCidade() {
         return cidade;
     }
 
-    public void setCidade(Cidade cidade) {
+    public Endereco setCidade(Cidade cidade) {
         this.cidade = cidade;
+        return this;
     }
 
     public String getCep() {
         return cep;
     }
 
-    public void setCep(String cep) {
+    public Endereco setCep(String cep) {
         this.cep = cep;
+        return this;
     }
 }

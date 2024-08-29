@@ -16,23 +16,26 @@ public class Aluno {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public Aluno setNome(String nome) {
         this.nome = nome;
+        return this;
     }
 
     public String getMatricula() {
         return matricula;
     }
 
-    public void setMatricula(String matricula) {
+    public Aluno setMatricula(String matricula) {
         this.matricula = matricula;
+        return this;
     }
 
     public Endereco getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(Endereco endereco) {
+    public Aluno setEndereco(Endereco endereco) {
         this.endereco = endereco;
+        return this;
     }
 }
