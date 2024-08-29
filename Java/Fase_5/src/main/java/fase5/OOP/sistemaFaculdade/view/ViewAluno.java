@@ -1,4 +1,8 @@
-package fase5.OOP.SistemaFaculdade;
+package fase5.OOP.sistemaFaculdade.view;
+
+import fase5.OOP.sistemaFaculdade.model.Aluno;
+import fase5.OOP.sistemaFaculdade.model.Cidade;
+import fase5.OOP.sistemaFaculdade.model.Endereco;
 
 import java.util.Scanner;
 
@@ -61,13 +65,13 @@ public class ViewAluno {
                                     Cep: %s
                                     Cidade: %s
                                     Estado: %s
-                                    %n""", aluno.nome,
-                                aluno.matricula,
-                                aluno.endereco.logradouro,
-                                aluno.endereco.numero,
-                                aluno.endereco.cep,
-                                aluno.endereco.cidade.nome,
-                                aluno.endereco.cidade.estado);
+                                    %n""", aluno.getNome(),
+                                aluno.getMatricula(),
+                                aluno.getEndereco().getLogradouro(),
+                                aluno.getEndereco().getNumero(),
+                                aluno.getEndereco().getCep(),
+                                aluno.getEndereco().getCidade().getNome(),
+                                aluno.getEndereco().getCidade().getEstado());
                     }else {
                         System.out.println("Nenhum aluno cadastrado.");
                     }

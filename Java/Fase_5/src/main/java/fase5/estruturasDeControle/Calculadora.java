@@ -1,4 +1,4 @@
-package fase5.estruturas_de_controle;
+package fase5.estruturasDeControle;
 
 import java.util.Scanner;
 

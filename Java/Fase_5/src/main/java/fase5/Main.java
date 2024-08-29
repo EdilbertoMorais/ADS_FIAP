@@ -1,6 +1,6 @@
 package fase5;
 
-import fase5.OOP.PersonagemMagico.PersonagemMagico;
+import fase5.OOP.personagemMagico.model.PersonagemMagico;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Main {
                 Nome: %s
                 Energia: %d
                 Poder: %s
-                %n""", mago.nome, mago.nivelEnergia, mago.poderMagico);
+                %n""", mago.getNome(), mago.getNivelEnergia(), mago.getPoderMagico());
 
 
         // Criando outro objeto do tipo PersonagemMagico
@@ -33,6 +33,6 @@ public class Main {
                 Nome: %s
                 Energia: %d
                 Poder: %s
-                %n""", mago.nome, mago.nivelEnergia, mago.poderMagico);
+                %n""", mago.getNome(), mago.getNivelEnergia(), mago.getPoderMagico());
     }
 }

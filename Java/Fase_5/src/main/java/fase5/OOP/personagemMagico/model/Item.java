@@ -1,11 +1,11 @@
-package fase5.OOP.PersonagemMagico;
+package fase5.OOP.personagemMagico.model;
 
 public class Item {
 
-    String nome;
-    String descricao;
-    Boolean ehRaro;
-    int nivelPoder;
+    public String nome;
+    public String descricao;
+    public Boolean ehRaro;
+    public int nivelPoder;
 
     public Item(){}
 

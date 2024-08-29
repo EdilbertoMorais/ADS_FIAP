@@ -1,4 +1,6 @@
-package fase5.OOP.PersonagemMagico;
+package fase5.OOP.personagemMagico.view;
+
+import fase5.OOP.personagemMagico.model.Item;
 
 import java.util.Scanner;
 

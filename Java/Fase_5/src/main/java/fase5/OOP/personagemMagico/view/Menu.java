@@ -1,4 +1,7 @@
-package fase5.OOP.PersonagemMagico;
+package fase5.OOP.personagemMagico.view;
+
+import fase5.OOP.personagemMagico.model.HabilidadeEspecial;
+import fase5.OOP.personagemMagico.model.PersonagemMagico;
 
 import java.util.Scanner;
 
@@ -28,9 +31,9 @@ public class Menu {
                     int nivelEnergia = sc.nextInt();
                     System.out.println("Digite o poder do personagem: ");
                     String poderMagico = sc.next() + sc.nextLine();
-                    personagem.nome = nome;
-                    personagem.nivelEnergia = nivelEnergia;
-                    personagem.poderMagico = poderMagico;
+                    personagem.setNome(nome);
+                    personagem.setNivelEnergia(nivelEnergia);
+                    personagem.setPoderMagico(poderMagico);
 
                     System.out.println("Digite o nome da habilidade especial: ");
                     String nomeHabilidade = sc.next() + sc.nextLine();
@@ -39,7 +42,7 @@ public class Menu {
                     System.out.println("A habilidade esta ativa?: (true/false)");
                     boolean habilidadeAtiva = sc.nextBoolean();
 
-                    personagem.habilidadeEspecial = new HabilidadeEspecial(nomeHabilidade, custoEnergia, habilidadeAtiva);
+                    personagem.setHabilidadeEspecial(new HabilidadeEspecial(nomeHabilidade, custoEnergia, habilidadeAtiva));
                     break;
                 case 2:
                     System.out.printf("""
@@ -50,12 +53,12 @@ public class Menu {
                             Nome da Habilidade: %s
                             Custo de energia: %d
                             Habilidade ativa?: %b
-                            %n""", personagem.nome,
-                            personagem.nivelEnergia,
-                            personagem.poderMagico,
-                            personagem.habilidadeEspecial.nome,
-                            personagem.habilidadeEspecial.custoEnergia,
-                            personagem.habilidadeEspecial.habilitada);
+                            %n""", personagem.getNome(),
+                            personagem.getNivelEnergia(),
+                            personagem.getPoderMagico(),
+                            personagem.getHabilidadeEspecial().getNome(),
+                            personagem.getHabilidadeEspecial().getCustoEnergia(),
+                            personagem.getHabilidadeEspecial().isHabilitada());
                     break;
                 case 0:
                     System.out.println("Saindo do programa");
