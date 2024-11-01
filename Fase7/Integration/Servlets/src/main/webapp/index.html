@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FIAP - Servlets</title>
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>
+    <form action="produto" method="POST">
+        <div>
+            <label for="id-nome">Nome</label>
+            <input type="text" name="nome" id="id-nome">
+        </div>
+        <div>
+            <label for="id-qtd">Quantidade</label>
+            <input type="text" name="quantidade" id="id-qtd">
+        </div>
+        <div>
+            <label for="id-valor">Valor</label>
+            <input type="text" name="valor" id="id-valor">
+        </div>
+        <br>
+        <input type="submit" value="Salvar">
+    </form>
+<!--    Usando um link-->
+<!--    <a href="produto?codigo=1">Buscar</a>-->
+
+<!--    Usando um botão-->
+    <br>
+    <button onclick="location.href='produto?codigo=1'">Buscar</button>
+
+</body>
+</html>
